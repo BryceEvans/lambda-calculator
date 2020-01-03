@@ -19,4 +19,50 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    margin: auto;
+}
+.logo-container {
+    margin: 15px 30px;
+}
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+.flexing {
+    display: flex;
+    width: 480px;
+    margin: auto;
+}
+.numbers {
+    display: flex;
+    flex-direction: wrap;
+}
+.button {
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0px 5px black;
+}
+.zero {
+    color: white;
+    width: 220px;
+    height: 100px;
+    margin: 10px;
+    font-size: 2rem;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 0px 5px black;
+}
+.numbers-button {
+    background-color: #113C79;
+}
+.specials-button {
+    background-color: #2060AF;
+}
+.operators-button {
+    background-color: rgb(63,181,228);
+}
