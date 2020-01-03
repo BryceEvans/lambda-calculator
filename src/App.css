@@ -19,4 +19,50 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    margin: auto;
+}
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+.flexing {
+    display: flex;
+    border: 1px solid green;
+    width: 450px;
+    margin: auto;
+
+}
+.numbers {
+    display: flex;
+    flex-direction: wrap;
+    /* width: something; */
+}
+.button {
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 6px;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0px 5px black;
+}
+.zero {
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin: 6px;
+    font-size: 2rem;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 0px 5px black;
+}
+.numbers-button {
+    background-color: #113C79;
+}
+.specials-button {
+    background-color: #2060AF;
+}
+.operators-button {
+    background-color: rgb(63,181,228);
+}
